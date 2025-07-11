@@ -24,6 +24,8 @@ nav.navbar img {
     /*altura de la imagen del logo*/
     width: auto;
     /*ancho automático para mantener la proporción*/
+    border-radius: 50%;
+    /*bordes redondeados de la imagen del logo*/
 }
 
 nav.navbar ul {
@@ -37,6 +39,28 @@ nav.navbar ul {
     /*para distribuir el espacio entre los elementos*/
     flex-direction: center;
 }
+
+nav.navbar i {
+    font-size: 250%;
+    /*tamaño del icono de búsqueda*/
+}
+
+nav.navbar button {
+    border-radius: 10px;
+    /*bordes redondeados del botón*/
+}
+
+div.container {
+    display: flex;
+    /*para que los elementos se alineen en una fila*/
+    align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
+    gap: 10px;
+    /*espacio entre los elementos de la barra de búsqueda*/
+    border-radius: 10px;
+    /*bordes redondeados de la barra de búsqueda*/
+}
+
 
 /*------------------------TENDENCIAS------------------------------*/
 
