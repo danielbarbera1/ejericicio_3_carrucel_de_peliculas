@@ -1,3 +1,71 @@
-main{
-    background-color: darkcyan;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------BARRA DE NAVEGACIÓN---------------------*/
+nav.navbar {
+    background-color: #333;
+    /*color de fondo*/
+    color: white;
+    /*color del texto*/
+    display: flex;
+    /*para que los elementos se alineen en una fila*/
+    padding: 10px;
+    /*espacio interno alrededor del contenido*/
+    justify-content: space-between;
+    /*para distribuir el espacio entre los elementos*/
+    align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
+}
+
+nav.navbar img {
+    height: 50px;
+    /*altura de la imagen del logo*/
+    width: auto;
+    /*ancho automático para mantener la proporción*/
+}
+
+nav.navbar ul {
+    list-style: none;
+    /*eliminar los puntos de la lista*/
+    display: flex;
+    /*para que los elementos de la lista se alineen en una fila*/
+    gap: 20px;
+    /*espacio entre los elementos de la lista*/
+    justify-content: space-between;
+    /*para distribuir el espacio entre los elementos*/
+    flex-direction: center;
+}
+
+/*------------------------TENDENCIAS------------------------------*/
+
+
+nav.tendencia {
+    background-color: #f4f4f4;
+    /*color de fondo de la sección de tendencias*/
+    color: #333;
+    /*color del texto de la sección de tendencias*/
+    padding: 20px;
+    /*espacio interno alrededor del contenido*/
+    align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
+}
+
+nav.tendencia article section img {
+    height: 100%;
+    /*altura de la imagen de tendencia*/
+    width: 50px;
+    /*ancho automático para mantener la proporción*/
+
+}
+
+nav.tendencia h1 {
+    align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
+    gap: 10px;
+    /*espacio entre los elementos de tendencia*/
+    text-align: center;
+    /*alinear el texto al centro*/
+    padding: 10px 0;
 }
