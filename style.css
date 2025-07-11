@@ -40,7 +40,6 @@ nav.navbar ul {
 
 /*------------------------TENDENCIAS------------------------------*/
 
-
 nav.tendencia {
     background-color: #f4f4f4;
     /*color de fondo de la sección de tendencias*/
@@ -55,8 +54,26 @@ nav.tendencia {
 nav.tendencia article section img {
     height: 100%;
     /*altura de la imagen de tendencia*/
-    width: 50px;
+    width: 150px;
     /*ancho automático para mantener la proporción*/
+
+}
+
+nav.tendencia article section {
+    width: 50%;
+    /*ancho de la sección de tendencia*/
+    display: flex;
+    /*para que los elementos de la sección se alineen en una fila*/
+    gap: 10px;
+    /*espacio entre los elementos de la sección*/
+    background-color: rgba(0, 0, 0, 0.686);
+    /*color de fondo de la sección de tendencia*/
+    border-radius: 5px;
+    /*bordes redondeados de la sección de tendencia*/
+    padding: 20px;
+    /*espacio interno alrededor del contenido de la sección de tendencia*/
+    overflow-x: auto;
+    /*para permitir el desplazamiento horizontal si hay demasiados elementos*/
 
 }
 
@@ -67,5 +84,5 @@ nav.tendencia h1 {
     /*espacio entre los elementos de tendencia*/
     text-align: center;
     /*alinear el texto al centro*/
-    padding: 10px 0;
+    padding: 10px;
 }
