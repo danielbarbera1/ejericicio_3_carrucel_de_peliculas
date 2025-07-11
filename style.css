@@ -84,24 +84,26 @@ nav.tendencia article section img {
 }
 
 nav.tendencia article section {
-    width: 50%;
-    /*ancho de la sección de tendencia*/
+    margin: 0px 100px;
+    /*margen de la sección de tendencia*/
     display: flex;
     /*para que los elementos de la sección se alineen en una fila*/
-    gap: 10px;
+    gap: 20px;
     /*espacio entre los elementos de la sección*/
     background-color: rgba(0, 0, 0, 0.686);
     /*color de fondo de la sección de tendencia*/
-    border-radius: 5px;
+    border-radius: 10px;
     /*bordes redondeados de la sección de tendencia*/
     padding: 20px;
     /*espacio interno alrededor del contenido de la sección de tendencia*/
     overflow-x: auto;
     /*para permitir el desplazamiento horizontal si hay demasiados elementos*/
-
+    align-items: center;
 }
 
 nav.tendencia h1 {
+    font-size: 2em;
+    /*tamaño del título de la sección de tendencias*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
     gap: 10px;
