@@ -11,12 +11,19 @@ nav.navbar {
     /*color del texto*/
     display: flex;
     /*para que los elementos se alineen en una fila*/
-    padding: 10px;
+    padding: 20px;
     /*espacio interno alrededor del contenido*/
     justify-content: space-between;
     /*para distribuir el espacio entre los elementos*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
+    width: 100%;
+    /*ancho completo de la barra de navegación*/
+    max-width: 1570px;
+    /*ancho máximo de la barra de navegación*/
+    margin: 0 auto;
+    /*centrar la barra de navegación en la página*/
+
 }
 
 nav.navbar img {
@@ -37,7 +44,8 @@ nav.navbar ul {
     /*espacio entre los elementos de la lista*/
     justify-content: space-between;
     /*para distribuir el espacio entre los elementos*/
-    flex-direction: center;
+    align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
 }
 
 nav.navbar i {
@@ -59,20 +67,39 @@ div.container {
     /*espacio entre los elementos de la barra de búsqueda*/
     border-radius: 10px;
     /*bordes redondeados de la barra de búsqueda*/
+
+}
+nav.navbar input[type="text"] {
+    width: 100%;
+    /*ancho completo de la barra de búsqueda*/
+    padding: 10px;
+    /*espacio interno alrededor del texto*/
+    border: none;
+    /*sin borde*/
+    border-radius: 10px;
+    /*bordes redondeados de la barra de búsqueda*/
 }
 
 
 /*------------------------TENDENCIAS------------------------------*/
 
 nav.tendencia {
-    background-color: #f4f4f4;
-    /*color de fondo de la sección de tendencias*/
+    height: auto;
+    /*altura automática para adaptarse al contenido*/
     color: #333;
     /*color del texto de la sección de tendencias*/
     padding: 20px;
     /*espacio interno alrededor del contenido*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
+    width: 100%;
+    /*ancho completo de la sección de tendencias*/
+    max-width: 1570px;
+    /*ancho máximo de la sección de tendencias*/
+    margin: 20px auto;
+    /*centrar la sección de tendencias en la página*/
+    text-align: center;
+    /*alinear el texto al centro*/
 }
 
 nav.tendencia article section img {
