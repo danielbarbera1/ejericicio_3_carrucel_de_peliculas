@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*---------------------BARRA DE NAVEGACIÓN---------------------*/
+/*--------------------- " BARRA DE NAVEGACIÓN " ---------------------*/
 nav.navbar {
     background-color: #333;
     /*color de fondo*/
@@ -83,7 +83,7 @@ nav.navbar input[type="text"] {
 }
 
 
-/*------------------------TENDENCIAS------------------------------*/
+/*------------------------ " TENDENCIAS " ------------------------------*/
 
 nav.tendencia {
     height: auto;
@@ -138,4 +138,43 @@ nav.tendencia h1 {
     text-align: center;
     /*alinear el texto al centro*/
     padding: 10px;
+}
+
+/*------------------------" GENEROS y PELICULAS "------------------------------*/
+
+.generos-y-peliculas aside {
+    display: flex;
+    /* Utilizar flexbox para el diseño */
+    flex-direction: row;
+    /* Dirección de la fila */
+    justify-content: space-between;
+    /* Espacio entre los elementos del navegador */
+}
+
+nav.aside{
+    width: 250px;
+    /*ancho de la barra lateral*/
+    background-color: rgba(0, 0, 0, 0.686);
+    /*color de fondo de la barra lateral*/
+    border-radius: 10px;
+    /*bordes redondeados de la barra lateral*/
+    padding: 20px;
+    /*espacio interno alrededor del contenido de la barra lateral*/
+    margin: 20px 0;
+    /*margen alrededor de la barra lateral*/
+    display: flex;
+     /* Utilizar flexbox para el diseño */
+    flex-direction: column;
+}
+nav.aside h2 {
+    font-size: 1.5em;
+    /*tamaño del título de la barra lateral*/
+    margin-bottom: 10px;
+    /*margen inferior del título de la barra lateral*/
+}
+nav .aside ul{
+
+}
+nav div.generos{
+    width: 250px;
 }
