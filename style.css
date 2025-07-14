@@ -13,17 +13,11 @@ nav.navbar {
     /*para que los elementos se alineen en una fila*/
     padding: 20px;
     /*espacio interno alrededor del contenido*/
-    justify-content: space-between;
-    /*para distribuir el espacio entre los elementos*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
     width: 100%;
     /*ancho completo de la barra de navegación*/
-    max-width: 1570px;
-    /*ancho máximo de la barra de navegación*/
-    margin: 0 auto;
-    /*centrar la barra de navegación en la página*/
-
+    ;
 }
 
 nav.navbar img {
@@ -33,6 +27,7 @@ nav.navbar img {
     /*ancho automático para mantener la proporción*/
     border-radius: 50%;
     /*bordes redondeados de la imagen del logo*/
+    margin-right: 00px;
 }
 
 nav.navbar ul {
@@ -42,15 +37,20 @@ nav.navbar ul {
     /*para que los elementos de la lista se alineen en una fila*/
     gap: 20px;
     /*espacio entre los elementos de la lista*/
-    justify-content: space-between;
-    /*para distribuir el espacio entre los elementos*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
+    margin-left: 20px;
+    /*margen a la izquierda de la lista*/
+    padding: 0;
+    /*eliminar el padding de la lista*/
+    margin-right: 1000px;
+    /* margen a la derecha de la lista */
 }
 
 nav.navbar i {
     font-size: 250%;
     /*tamaño del icono de búsqueda*/
+
 }
 
 nav.navbar button {
@@ -67,8 +67,10 @@ div.container {
     /*espacio entre los elementos de la barra de búsqueda*/
     border-radius: 10px;
     /*bordes redondeados de la barra de búsqueda*/
-
+    margin: 20px;
+    /*margen alrededor de la barra de búsqueda*/
 }
+
 nav.navbar input[type="text"] {
     width: 100%;
     /*ancho completo de la barra de búsqueda*/
@@ -94,8 +96,6 @@ nav.tendencia {
     /*para alinear los elementos verticalmente al centro*/
     width: 100%;
     /*ancho completo de la sección de tendencias*/
-    max-width: 1570px;
-    /*ancho máximo de la sección de tendencias*/
     margin: 20px auto;
     /*centrar la sección de tendencias en la página*/
     text-align: center;
