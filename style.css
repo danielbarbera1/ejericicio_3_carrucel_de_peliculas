@@ -147,11 +147,11 @@ nav.tendencia h1 {
     /* Utilizar flexbox para el diseño */
     flex-direction: row;
     /* Dirección de la fila */
-    justify-content: space-between;
+    justify-content: space-betwee;
     /* Espacio entre los elementos del navegador */
 }
 
-nav.aside{
+.generos {
     width: 250px;
     /*ancho de la barra lateral*/
     background-color: rgba(0, 0, 0, 0.686);
@@ -163,18 +163,48 @@ nav.aside{
     margin: 20px 0;
     /*margen alrededor de la barra lateral*/
     display: flex;
-     /* Utilizar flexbox para el diseño */
+    /* Utilizar flexbox para el diseño */
     flex-direction: column;
+    /* Dirección de la columna */
+    align-items: center;
+    /* Alinear los elementos al centro */
+    text-align: center;
+    /* Alinear el texto al centro */
+    color: white;
+    /* color del texto de la barra lateral */;
 }
-nav.aside h2 {
+
+.generos h2 {
     font-size: 1.5em;
     /*tamaño del título de la barra lateral*/
     margin-bottom: 10px;
     /*margen inferior del título de la barra lateral*/
+    padding: 20px;
 }
-nav .aside ul{
+
+.generos ul {
+    list-style: none;
+    /*eliminar los puntos de la lista*/
+    text-align: center;
+    padding: 20px;
 
 }
-nav div.generos{
-    width: 250px;
+
+.generos button {
+    background-color: #333;
+    /*color de fondo del botón*/
+    color: white;
+    /*color del texto del botón*/
+    border: none;
+    /*sin borde*/
+    padding: 10px 20px;
+    /*espacio interno alrededor del texto del botón*/
+    border-radius: 5px;
+    /*bordes redondeados del botón*/
+    cursor: pointer;
+    /*cursor de mano al pasar por encima del botón*/
+}
+
+.peliculas img {
+    height: 100%;
 }
