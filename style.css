@@ -142,14 +142,22 @@ nav.tendencia h1 {
 }
 
 /*------------------------" GENEROS y PELICULAS "------------------------------*/
+main.generos-y-peliculas aside section {
+    display: flex;
+    /* Utilizar flexbox para el diseño */
+    flex-direction: row;
+    /* Dirección de la fila */
+    justify-content: space-between;
+    /* Espacio entre los elementos */
+    margin: 20px;
+    /* Margen alrededor del contenedor */
+}
 
 .generos-y-peliculas aside {
     display: flex;
     /* Utilizar flexbox para el diseño */
     flex-direction: row;
     /* Dirección de la fila */
-    justify-content: space-between;
-    /* Espacio entre los elementos del navegador */
 }
 
 .generos {
@@ -218,6 +226,11 @@ nav.tendencia h1 {
     box-shadow: 2px 4px 6px #d5e9fc;
 }
 
+.peliculas{
+    width: 100%;
+    /*ancho de la sección de películas*/
+    
+}
 .peliculas h1 {
     text-align: center;
     /* Alinear el texto al centro */
@@ -235,14 +248,14 @@ nav.tendencia h1 {
     /*color del texto del título de la barra lateral*/
     box-shadow: 2px 4px 6px #d5e9fc;
     /*sombra del título de la barra lateral*/
-    margin-right: 20px;
+ /*   margin-right: 200px;*/
     /*margen derecho del título de la barra lateral*/
 }
 
 .peliculas img {
     width: 20%;
     /*ancho de la imagen de la película*/
-    height: 400px;
+    height: 40px;
     /*altura de la imagen de la película*/
     padding: 30px;
     /*espacio interno alrededor de la imagen de la película*/
@@ -252,7 +265,14 @@ nav.tendencia h1 {
     /*bordes redondeados del fondo*/
     box-shadow: 2px 4px 6px #16181a;
     /*sombra de la imagen de la película*/
+    display: flex;
 }
+
+.peliculas h2{
+    text-align: center;
+}
+
+
 
 /*------------------------" footer"  -------------------------*/
 /*
