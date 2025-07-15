@@ -174,6 +174,7 @@ nav.tendencia h1 {
     color: white;
     /* color del texto de la barra lateral */
     height: 20%;
+    /*altura de la barra lateral*/
 }
 
 .generos h2 {
@@ -182,16 +183,22 @@ nav.tendencia h1 {
     margin-bottom: 10px;
     /*margen inferior del título de la barra lateral*/
     padding: 20px;
+    /*espacio interno alrededor del título de la barra lateral*/
 }
 
 .generos ul {
     list-style: none;
     /*eliminar los puntos de la lista*/
     text-align: center;
+    /* Alinear el texto al centro */
     padding: 20px;
+    /*espacio interno alrededor de la lista*/
     gap: 30px;
+    /*espacio entre los elementos de la lista*/
     display: flex;
+    /* Utilizar flexbox para el diseño */
     flex-direction: column;
+    /* Dirección de la columna */
 
 }
 
@@ -213,25 +220,48 @@ nav.tendencia h1 {
 
 .peliculas h1 {
     text-align: center;
+    /* Alinear el texto al centro */
     font-size: 1.5em;
     /*tamaño del título de la barra lateral*/
     margin-bottom: 10px;
     /*margen inferior del título de la barra lateral*/
     padding: 20px;
+    /*espacio interno alrededor del título de la barra lateral*/
     background-color: #333;
+    /*color de fondo del título de la barra lateral*/
     border-radius: 50px;
+    /*bordes redondeados del título de la barra lateral*/
     color: white;
+    /*color del texto del título de la barra lateral*/
     box-shadow: 2px 4px 6px #d5e9fc;
+    /*sombra del título de la barra lateral*/
     margin-right: 20px;
+    /*margen derecho del título de la barra lateral*/
 }
 
 .peliculas img {
     width: 20%;
+    /*ancho de la imagen de la película*/
     height: 400px;
+    /*altura de la imagen de la película*/
     padding: 30px;
+    /*espacio interno alrededor de la imagen de la película*/
     background-color: #333;
+    /*color de fondo de la imagen de la película*/
     border-radius: 30px;
-    /*bordes redondeados del botón*/
+    /*bordes redondeados del fondo*/
     box-shadow: 2px 4px 6px #16181a;
+    /*sombra de la imagen de la película*/
+}
 
+/*------------------------" footer"  -------------------------*/
+/*
+footer{
+    background-color: #333;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 10mm;
+    padding: 50px;
+    text-align: center;
 }
