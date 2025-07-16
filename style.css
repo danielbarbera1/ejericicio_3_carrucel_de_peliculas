@@ -173,10 +173,9 @@ main.main-content {
     /* Alinear el texto al centro */
     color: white;
     /* color del texto de la barra lateral */
-    height: 57%;
+    height: 52%;
     /*altura de la barra lateral*/
 }
-
 .generos h2 {
     font-size: 1.5em;
     /*tamaño del título de la barra lateral*/
@@ -282,6 +281,7 @@ section.peliculas {
     /*sombra de la tarjeta de la película*/
     color: white;
     /*color del texto de la tarjeta de la película*/
+    gap: 10px;
 }
 
 .peliculas-catalogo {
@@ -297,7 +297,21 @@ section.peliculas {
     /* margen alrededor de la tarjeta*/
 }
 
-
+.boton{
+    background-color: #333;
+    /*color de fondo del botón*/
+    color: white;
+    /*color del texto del botón*/
+    border: none;
+    /*sin borde*/
+    padding: 10px 20px;
+    /*espacio interno alrededor del texto del botón*/
+    border-radius: 5px;
+    /*bordes redondeados del botón*/
+    cursor: pointer;
+    /*cursor de mano al pasar por encima del botón*/
+    box-shadow: 2px 4px 6px #d5e9fc;
+}
 
 
 
