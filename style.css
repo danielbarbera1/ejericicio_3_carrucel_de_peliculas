@@ -142,23 +142,12 @@ nav.tendencia h1 {
 }
 
 /*------------------------" GENEROS y PELICULAS "------------------------------*/
-main.generos-y-peliculas aside section {
+main.main-content {
     display: flex;
-    /* Utilizar flexbox para el diseño */
     flex-direction: row;
-    /* Dirección de la fila */
-    justify-content: space-between;
-    /* Espacio entre los elementos */
     margin: 20px;
-    /* Margen alrededor del contenedor */
 }
 
-.generos-y-peliculas aside {
-    display: flex;
-    /* Utilizar flexbox para el diseño */
-    flex-direction: row;
-    /* Dirección de la fila */
-}
 
 .generos {
     width: 250px;
@@ -181,7 +170,7 @@ main.generos-y-peliculas aside section {
     /* Alinear el texto al centro */
     color: white;
     /* color del texto de la barra lateral */
-    height: 20%;
+    height: 16%;
     /*altura de la barra lateral*/
 }
 
@@ -226,7 +215,7 @@ main.generos-y-peliculas aside section {
     box-shadow: 2px 4px 6px #d5e9fc;
 }
 
-.peliculas{
+section.peliculas {
     width: 100%;
     /*ancho de la sección de películas*/
     
@@ -253,14 +242,12 @@ main.generos-y-peliculas aside section {
 }
 
 .peliculas img {
-    width: 20%;
+    width: 100%;
     /*ancho de la imagen de la película*/
-    height: 40px;
+    height: auto;
     /*altura de la imagen de la película*/
     padding: 30px;
     /*espacio interno alrededor de la imagen de la película*/
-    background-color: #333;
-    /*color de fondo de la imagen de la película*/
     border-radius: 30px;
     /*bordes redondeados del fondo*/
     box-shadow: 2px 4px 6px #16181a;
@@ -271,6 +258,19 @@ main.generos-y-peliculas aside section {
 .peliculas h2{
     text-align: center;
 }
+
+.pelicula-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
 
 
 
