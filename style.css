@@ -144,8 +144,11 @@ nav.tendencia h1 {
 /*------------------------" GENEROS y PELICULAS "------------------------------*/
 main.main-content {
     display: flex;
+    /*para que los elementos se alineen en una fila*/
     flex-direction: row;
+    /* Dirección de la fila */
     margin: 20px;
+    /* margen alrededor del contenido principal */
 }
 
 
@@ -170,7 +173,7 @@ main.main-content {
     /* Alinear el texto al centro */
     color: white;
     /* color del texto de la barra lateral */
-    height: 16%;
+    height: 57%;
     /*altura de la barra lateral*/
 }
 
@@ -218,8 +221,8 @@ main.main-content {
 section.peliculas {
     width: 100%;
     /*ancho de la sección de películas*/
-    
 }
+
 .peliculas h1 {
     text-align: center;
     /* Alinear el texto al centro */
@@ -237,7 +240,7 @@ section.peliculas {
     /*color del texto del título de la barra lateral*/
     box-shadow: 2px 4px 6px #d5e9fc;
     /*sombra del título de la barra lateral*/
- /*   margin-right: 200px;*/
+    /*   margin-right: 200px;*/
     /*margen derecho del título de la barra lateral*/
 }
 
@@ -250,26 +253,50 @@ section.peliculas {
     /*espacio interno alrededor de la imagen de la película*/
     border-radius: 30px;
     /*bordes redondeados del fondo*/
-    box-shadow: 2px 4px 6px #16181a;
-    /*sombra de la imagen de la película*/
     display: flex;
 }
 
-.peliculas h2{
+.peliculas h2 {
     text-align: center;
+    /* Alinear el texto al centro */
 }
 
 .pelicula-card {
     width: 200px;
+    /*ancho de la tarjeta de la película*/
     display: flex;
+    /*para que los elementos de la tarjeta se alineen en una fila*/
     flex-direction: column;
+    /* Dirección de la columna */
     align-items: center;
+    /*para alinear los elementos verticalmente al centro*/
     margin: 15px;
-    background-color: #222;
+    /* margen alrededor de la tarjeta de la película*/
+    background-color: #333;
+    /*color de fondo de la tarjeta de la película*/
     padding: 15px;
+    /*espacio interno alrededor del contenido de la tarjeta de la película*/
     border-radius: 15px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    /*bordes redondeados de la tarjeta de la película*/
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    /*sombra de la tarjeta de la película*/
+    color: white;
+    /*color del texto de la tarjeta de la película*/
 }
+
+.peliculas-catalogo {
+    display: flex;
+    /*para que los elementos de la tarjeta se alineen en una fila*/
+    flex-wrap: wrap;
+    /*para permitir que los elementos se ajusten a varias líneas si es necesario*/
+    justify-content: center;
+    /*para centrar los elementos horizontalmente*/
+    gap: 20px;
+    /*espacio entre los elementos de la tarjeta*/
+    margin: 20px;
+    /* margen alrededor de la tarjeta*/
+}
+
 
 
 
