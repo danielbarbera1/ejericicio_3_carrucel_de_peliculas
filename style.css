@@ -15,7 +15,6 @@ nav.navbar {
     /*para alinear los elementos verticalmente al centro*/
     width: 100%;
     /*ancho completo de la barra de navegación*/
-    ;
 }
 
 nav.navbar img {
@@ -92,8 +91,6 @@ nav.tendencia {
     /*espacio interno alrededor del contenido*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
-    width: 100%;
-    /*ancho completo de la sección de tendencias*/
     text-align: center;
     /*alinear el texto al centro*/
     background-color: #3498db;
@@ -116,11 +113,11 @@ nav.tendencia article section {
     /*para que los elementos de la sección se alineen en una fila*/
     gap: 20px;
     /*espacio entre los elementos de la sección*/
-    background-color: rgba(0, 0, 0, 0.686);
+    background-color: #11bae0;
     /*color de fondo de la sección de tendencia*/
     border-radius: 10px;
     /*bordes redondeados de la sección de tendencia*/
-    padding: 20px;
+    padding: 10px;
     /*espacio interno alrededor del contenido de la sección de tendencia*/
     overflow-x: auto;
     /*para permitir el desplazamiento horizontal si hay demasiados elementos*/
@@ -181,7 +178,7 @@ main.main-content {
     /*espacio interno alrededor del título de la barra lateral*/
     background-color: #087ecd;
     /*color de fondo del título de la barra lateral*/
-    border-radius: 50px;
+    border-radius: 10px;
     /*bordes redondeados del título de la barra lateral*/
     width: 100%;
     /*ancho completo del título de la barra lateral*/
@@ -196,7 +193,7 @@ main.main-content {
     /* Alinear el texto al centro */
     padding: 20px;
     /*espacio interno alrededor de la lista*/
-    gap: 30px;
+    gap: 10px;
     /*espacio entre los elementos de la lista*/
     display: flex;
     /* Utilizar flexbox para el diseño */
@@ -214,9 +211,9 @@ main.main-content {
     /*color del texto del botón*/
     border: none;
     /*sin borde*/
-    padding: 20px 10px;
+    padding: 10px;
     /*espacio interno alrededor del texto del botón*/
-    border-radius: 5px;
+    border-radius: 10px;
     /*bordes redondeados del botón*/
     cursor: pointer;
     /*cursor de mano al pasar por encima del botón*/
@@ -239,7 +236,7 @@ section.peliculas {
     /*espacio interno alrededor del título de la barra lateral*/
     background-color: #087ecd;
     /*color de fondo del título de la barra lateral*/
-    border-radius: 50px;
+    border-radius: 10px;
     /*bordes redondeados del título de la barra lateral*/
     color: white;
     /*color del texto del título de la barra lateral*/
@@ -253,16 +250,16 @@ section.peliculas {
     /*ancho de la imagen de la película*/
     height: auto;
     /*altura de la imagen de la película*/
-    padding: 30px;
-    /*espacio interno alrededor de la imagen de la película*/
-    border-radius: 30px;
-    /*bordes redondeados del fondo*/
-    display: flex;
 }
 
 .peliculas h2 {
     text-align: center;
     /* Alinear el texto al centro */
+    font-size: 1.2em;
+    /*tamaño del título de la película*/
+    padding: 10px;
+    /*espacio interno alrededor del título de la película*/
+
 }
 
 .pelicula-card {
@@ -274,19 +271,21 @@ section.peliculas {
     /* Dirección de la columna */
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
-    margin: 15px;
-    /* margen alrededor de la tarjeta de la película*/
-    background-color: #333;
+    background-color: white;
     /*color de fondo de la tarjeta de la película*/
-    padding: 15px;
-    /*espacio interno alrededor del contenido de la tarjeta de la película*/
     border-radius: 15px;
     /*bordes redondeados de la tarjeta de la película*/
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
     /*sombra de la tarjeta de la película*/
-    color: white;
+    color: black;
     /*color del texto de la tarjeta de la película*/
-    gap: 10px;
+    text-align: center;
+    /* Alinear el texto al centro */
+    height: 400px;
+    /*altura de la tarjeta de la película*/
+    margin: 10px;
+    /*margen alrededor de la tarjeta de la película*/
+    justify-content: space-between;
 }
 
 .peliculas-catalogo {
@@ -303,7 +302,7 @@ section.peliculas {
 }
 
 .boton {
-    background-color: #333;
+    background-color: #039714;
     /*color de fondo del botón*/
     color: white;
     /*color del texto del botón*/
@@ -311,11 +310,14 @@ section.peliculas {
     /*sin borde*/
     padding: 10px 20px;
     /*espacio interno alrededor del texto del botón*/
-    border-radius: 5px;
+    border-radius: 10px;
     /*bordes redondeados del botón*/
     cursor: pointer;
     /*cursor de mano al pasar por encima del botón*/
-    box-shadow: 2px 4px 6px #d5e9fc;
+    box-shadow: 2px 4px 6px #000000;
+    /*sombra del botón*/
+    width: 80%;
+    /*ancho del botón*/
 }
 
 
