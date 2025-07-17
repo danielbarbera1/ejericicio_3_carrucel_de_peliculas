@@ -5,14 +5,12 @@
 
 /*--------------------- " BARRA DE NAVEGACIÓN " ---------------------*/
 nav.navbar {
-    background-color: #333;
+    background-color: #087ecd;
     /*color de fondo*/
     color: white;
     /*color del texto*/
     display: flex;
     /*para que los elementos se alineen en una fila*/
-    padding: 20px;
-    /*espacio interno alrededor del contenido*/
     align-items: center;
     /*para alinear los elementos verticalmente al centro*/
     width: 100%;
@@ -88,7 +86,7 @@ nav.navbar input[type="text"] {
 nav.tendencia {
     height: auto;
     /*altura automática para adaptarse al contenido*/
-    color: #333;
+    color: white;
     /*color del texto de la sección de tendencias*/
     padding: 20px;
     /*espacio interno alrededor del contenido*/
@@ -96,10 +94,11 @@ nav.tendencia {
     /*para alinear los elementos verticalmente al centro*/
     width: 100%;
     /*ancho completo de la sección de tendencias*/
-    margin: 20px auto;
-    /*centrar la sección de tendencias en la página*/
     text-align: center;
     /*alinear el texto al centro*/
+    background-color: #3498db;
+    /*color de fondo de la sección de tendencias*/
+
 }
 
 nav.tendencia article section img {
@@ -139,6 +138,7 @@ nav.tendencia h1 {
     text-align: center;
     /*alinear el texto al centro*/
     padding: 10px;
+    /*espacio interno alrededor del título de la sección de tendencias*/
 }
 
 /*------------------------" GENEROS y PELICULAS "------------------------------*/
@@ -147,22 +147,18 @@ main.main-content {
     /*para que los elementos se alineen en una fila*/
     flex-direction: row;
     /* Dirección de la fila */
-    margin: 20px;
-    /* margen alrededor del contenido principal */
+    background-color: #3498db;
+    /*color de fondo del contenido principal*/
 }
 
 
 .generos {
     width: 250px;
     /*ancho de la barra lateral*/
-    background-color: rgba(0, 0, 0, 0.686);
+    background-color: #3498db;
     /*color de fondo de la barra lateral*/
     border-radius: 10px;
     /*bordes redondeados de la barra lateral*/
-    padding: 20px;
-    /*espacio interno alrededor del contenido de la barra lateral*/
-    margin: 20px 20px;
-    /*margen alrededor de la barra lateral*/
     display: flex;
     /* Utilizar flexbox para el diseño */
     flex-direction: column;
@@ -175,14 +171,22 @@ main.main-content {
     /* color del texto de la barra lateral */
     height: 52%;
     /*altura de la barra lateral*/
+    margin-left: 30px;
 }
+
 .generos h2 {
     font-size: 1.5em;
     /*tamaño del título de la barra lateral*/
-    margin-bottom: 10px;
-    /*margen inferior del título de la barra lateral*/
-    padding: 20px;
+    padding: 10px;
     /*espacio interno alrededor del título de la barra lateral*/
+    background-color: #087ecd;
+    /*color de fondo del título de la barra lateral*/
+    border-radius: 50px;
+    /*bordes redondeados del título de la barra lateral*/
+    width: 100%;
+    /*ancho completo del título de la barra lateral*/
+    box-shadow: 2px 4px 6px #d5e9fc;
+    /*sombra del título de la barra lateral*/
 }
 
 .generos ul {
@@ -198,11 +202,13 @@ main.main-content {
     /* Utilizar flexbox para el diseño */
     flex-direction: column;
     /* Dirección de la columna */
+    width: 100%;
+    /*ancho completo de la lista*/
 
 }
 
 .generos button {
-    background-color: #333;
+    background-color: #0564a3;
     /*color de fondo del botón*/
     color: white;
     /*color del texto del botón*/
@@ -215,10 +221,12 @@ main.main-content {
     cursor: pointer;
     /*cursor de mano al pasar por encima del botón*/
     box-shadow: 2px 4px 6px #d5e9fc;
+    /*sombra del botón*/
+    width: 100%;
 }
 
 section.peliculas {
-    width: 100%;
+    width: 80%;
     /*ancho de la sección de películas*/
 }
 
@@ -227,11 +235,9 @@ section.peliculas {
     /* Alinear el texto al centro */
     font-size: 1.5em;
     /*tamaño del título de la barra lateral*/
-    margin-bottom: 10px;
-    /*margen inferior del título de la barra lateral*/
-    padding: 20px;
+    padding: 10px;
     /*espacio interno alrededor del título de la barra lateral*/
-    background-color: #333;
+    background-color: #087ecd;
     /*color de fondo del título de la barra lateral*/
     border-radius: 50px;
     /*bordes redondeados del título de la barra lateral*/
@@ -239,8 +245,7 @@ section.peliculas {
     /*color del texto del título de la barra lateral*/
     box-shadow: 2px 4px 6px #d5e9fc;
     /*sombra del título de la barra lateral*/
-    /*   margin-right: 200px;*/
-    /*margen derecho del título de la barra lateral*/
+    margin-left: 20px;
 }
 
 .peliculas img {
@@ -297,7 +302,7 @@ section.peliculas {
     /* margen alrededor de la tarjeta*/
 }
 
-.boton{
+.boton {
     background-color: #333;
     /*color de fondo del botón*/
     color: white;
