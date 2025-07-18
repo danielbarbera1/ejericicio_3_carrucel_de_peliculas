@@ -220,13 +220,12 @@ main.main-content {
     box-shadow: 2px 4px 6px #d5e9fc;
     /*sombra del botón*/
     width: 100%;
+    /*ancho completo del botón*/
 }
 
 .generos button:hover {
     transform: translateY(3px);
     /* Mueve el botón ligeramente hacia abajo */
-    box-shadow: 0 2px 0 0 #3e8e41;
-    /* Reduce la sombra para simular hundimiento */
 }
 
 section.peliculas {
@@ -282,7 +281,7 @@ section.peliculas {
     /*color de fondo de la tarjeta de la película*/
     border-radius: 15px;
     /*bordes redondeados de la tarjeta de la película*/
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 6px #d5e9fc;
     /*sombra de la tarjeta de la película*/
     color: black;
     /*color del texto de la tarjeta de la película*/
@@ -293,6 +292,24 @@ section.peliculas {
     margin: 10px;
     /*margen alrededor de la tarjeta de la película*/
     justify-content: space-between;
+    /*para distribuir el espacio entre los elementos de la tarjeta*/
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    /* Transición suave al hover */
+    position: relative;
+    /* Necesario para que z-index funcione correctamente */
+    z-index: 1;
+    /* Valor base para el orden de apilamiento */
+    overflow: hidden;
+    /* Asegura que nada se desborde fuera de los bordes redondeados */
+}
+
+.pelicula-card:hover {
+    transform: translateY(-8px);
+    /* CAMBIO: Mueve la tarjeta un poco más arriba */
+    box-shadow: 0 15px 25px rgb(255, 255, 255);
+    /* CAMBIO: Aumenta la sombra para mayor profundidad */
+    z-index: 2;
+    /* Asegura que la tarjeta elevada se muestre por encima de las adyacentes */
 }
 
 .peliculas-catalogo {
@@ -328,12 +345,6 @@ section.peliculas {
 
 }
 
-.boton:hover {
-    transform: translateY(3px);
-    /* Mueve el botón ligeramente hacia abajo */
-    box-shadow: 0 2px 0 0 #3e8e41;
-    /* Reduce la sombra para simular hundimiento */
-}
 
 /*------------------------" footer"  -------------------------*/
 /*
