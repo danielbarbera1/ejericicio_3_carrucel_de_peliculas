@@ -222,6 +222,13 @@ main.main-content {
     width: 100%;
 }
 
+.generos button:hover {
+    transform: translateY(3px);
+    /* Mueve el botón ligeramente hacia abajo */
+    box-shadow: 0 2px 0 0 #3e8e41;
+    /* Reduce la sombra para simular hundimiento */
+}
+
 section.peliculas {
     width: 80%;
     /*ancho de la sección de películas*/
@@ -318,9 +325,15 @@ section.peliculas {
     /*sombra del botón*/
     width: 80%;
     /*ancho del botón*/
+
 }
 
-
+.boton:hover {
+    transform: translateY(3px);
+    /* Mueve el botón ligeramente hacia abajo */
+    box-shadow: 0 2px 0 0 #3e8e41;
+    /* Reduce la sombra para simular hundimiento */
+}
 
 /*------------------------" footer"  -------------------------*/
 /*
