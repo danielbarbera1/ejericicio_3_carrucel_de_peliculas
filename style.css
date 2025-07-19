@@ -56,8 +56,6 @@ nav.navbar ul {
 /* El "botón" que activa el dropdown (en este caso, el enlace "Cine") */
 .dropbtn {
     /* Puedes mantener los estilos que ya tienes para nav.navbar ul li a */
-    padding: 10px 15px;
-    /* Ajusta el padding si es necesario */
     text-decoration: none;
     /* Elimina el subrayado */
     color: white;
@@ -67,6 +65,10 @@ nav.navbar ul {
     /* Para que ocupe todo el espacio disponible dentro del li */
     cursor: pointer;
     /* Indica que es interactivo */
+}
+
+.navbar ul li a i{
+    font-size: 80%;
 }
 
 /* Contenido del dropdown (los géneros) */
@@ -131,8 +133,6 @@ nav.navbar ul li a {
     /* Mantén tus estilos actuales para los enlaces de la barra de navegación */
     text-decoration: none;
     color: white;
-    padding: 10px 15px;
-    /* Ajusta este padding si es necesario para que coincida con .dropbtn */
     display: block;
 }
 
