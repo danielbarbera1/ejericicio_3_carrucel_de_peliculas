@@ -138,7 +138,7 @@ nav.navbar ul li a {
 
 /*------------------------ " BARRA DE BÚSQUEDA " ------------------------------*/
 nav.navbar i {
-    font-size: 250%;
+    font-size: 16px;
     /*tamaño del icono de búsqueda*/
 
 }
@@ -147,6 +147,7 @@ nav.navbar i {
 nav.navbar button {
     border-radius: 10px;
     /*bordes redondeados del botón*/
+    padding: 7px 10px;
 }
 
 /* contenedor de la Barra de búsqueda */
